@@ -1,0 +1,74 @@
+#sideBar {
+    height: 100%;
+    width: 250px;
+    position:fixed;
+    background-color: aliceblue;
+    padding-top: 350px;
+    z-index: 5;
+    overflow-x: hidden;
+}
+#sideBar a {
+    color:grey;
+    display:block;
+    padding: 6px 10px 10px 70px;
+    text-align: left;
+    font-size: x-large;
+    text-decoration: none;
+}
+#sideBar a:hover {
+    color:black;
+}
+#image {
+    margin-left: 500px;
+    width: 100%;
+    height: 300px;
+    position: sticky;
+    width: auto;
+    z-index: 1;
+}
+h3 {
+    margin-left: 400px;
+    font-style: italic;
+    font-size: x-large;
+}
+p {
+    margin-left: 500px;
+    margin-right: 250px;
+    font-size: medium;
+    line-height: 170%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.fa {
+    padding: 20px;
+    font-size: 5px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-size: 5px;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-yahoo {
+    background: #430297;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa-github {
+    background: #f6f6f6;
+    color: rgb(0, 0, 0);
+  }
+footer {
+    margin-left: 250px;
+    position: sticky;
+    text-align: center;
+    padding-top: 20px;
+}
+
