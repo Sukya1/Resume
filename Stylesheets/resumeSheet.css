@@ -31,7 +31,14 @@ h3 {
     font-style: italic;
     font-size: x-large;
 }
-p {
+#body {
+  margin-left: 300px;
+}
+.notParagraphOnHome,ul {
+  margin-left: 50px;
+  font-size: 15px;
+}
+#homeParagraph {
     margin-left: 500px;
     margin-right: 250px;
     font-size: medium;
